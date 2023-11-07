@@ -7,6 +7,6 @@ import genericUtilities.BaseClass;
 public class NewTc extends BaseClass {
 	@Test
 	public void demo() {
-		driver.navigate().to("https://www.facebook.com");
+		driver.navigate().to("https://www.instagram.com");
 	}
 }
