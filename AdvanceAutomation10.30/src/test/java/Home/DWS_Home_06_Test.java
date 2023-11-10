@@ -23,7 +23,6 @@ public class DWS_Home_06_Test extends BaseClass{
 		computerPage.getaddToCompareList().click();
 		logger.log(Status.INFO, "User added first product to comapre list");
 		driver.navigate().back();
-		assertFalse(true);
 		driver.navigate().back();
 		computerPage.getThirdElementFromDesktop().click();
 		computerPage.getThirdElementFromDesktop().click();
